@@ -23,15 +23,15 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-          I don't just edit videos. I craft digital weapons that cut through the noise of the blockchain. Sharp, viral, and purely cinematic.
+          I don't just edit videos. I craft digital weapons that cut through the noise of the blockchain. Sharp, viral, and purely cinematic for the decentralized era.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#work" className="w-full sm:w-auto px-10 py-4 bg-samurai hover:bg-red-700 text-white font-black uppercase tracking-widest text-sm transition-all shadow-[0_0_20px_rgba(255,0,0,0.3)] hover:scale-105 active:scale-95">
             View My Work
           </a>
-          <a href="#consultant" className="w-full sm:w-auto px-10 py-4 border border-white/20 hover:border-white text-white font-black uppercase tracking-widest text-sm transition-all hover:bg-white/5">
-            Talk to the Sensei
+          <a href="#about" className="w-full sm:w-auto px-10 py-4 border border-white/20 hover:border-white text-white font-black uppercase tracking-widest text-sm transition-all hover:bg-white/5">
+            About Us
           </a>
         </div>
       </div>

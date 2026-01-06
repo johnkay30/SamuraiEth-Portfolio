@@ -5,7 +5,7 @@ import { ChatMessage } from '../types';
 
 const AIAssistant: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: 'Greeting, warrior. I am the Sensei. How can Samu assist your visual conquest today?' }
+    { role: 'model', text: 'Greeting. I am the Samurai.eth strategist. How can we assist your visual conquest today?' }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -39,20 +39,23 @@ const AIAssistant: React.FC = () => {
   };
 
   return (
-    <section id="consultant" className="py-24 px-6 bg-[#080808] relative">
+    <section id="about" className="py-24 px-6 bg-[#080808] relative">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col items-center mb-12 text-center">
           <div className="w-16 h-16 bg-samurai flex items-center justify-center rounded-full mb-6 shadow-[0_0_20px_rgba(255,0,0,0.5)]">
             <span className="text-3xl">👺</span>
           </div>
-          <h2 className="text-4xl font-black uppercase font-jp mb-4">Talk to the <span className="text-samurai">Sensei</span></h2>
-          <p className="text-gray-400 font-light">Not sure what kind of video strategy you need? Samu's AI assistant will help you scope your project.</p>
+          <h2 className="text-4xl font-black uppercase font-jp mb-4">About <span className="text-samurai">Samurai.eth</span></h2>
+          <p className="text-gray-400 font-light max-w-2xl">
+            We are a high-performance visual engineering studio dedicated to the Web3 ecosystem. 
+            Use our AI strategist below to scope your next mission and refine your content strategy.
+          </p>
         </div>
 
         <div className="bg-[#0f0f0f] border border-white/10 rounded-xl overflow-hidden shadow-2xl">
           <div className="p-4 bg-white/5 border-b border-white/10 flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-green-500"></div>
-            <span className="text-[10px] font-bold uppercase tracking-widest text-white/60">Samu System Online</span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-white/60">Samurai System Online</span>
           </div>
 
           <div 
@@ -87,7 +90,7 @@ const AIAssistant: React.FC = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-              placeholder="Ask the Sensei about your project..."
+              placeholder="Query the Samurai strategist..."
               className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-samurai transition-colors"
             />
             <button 

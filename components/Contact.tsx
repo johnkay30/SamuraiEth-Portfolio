@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
           <span className="text-samurai uppercase tracking-widest text-xs font-bold mb-4 block">The Mission</span>
           <h2 className="text-6xl font-black uppercase font-jp mb-8 leading-tight">Prepare Your <br/> <span className="text-samurai">Digital Conquest</span></h2>
           <p className="text-gray-400 text-lg font-light mb-12 max-w-md">
-            Ready to elevate your project to the next level? Fill out the form or reach out directly on social media. Samu's blade is ready.
+            Ready to elevate your project to the next level? Fill out the form or reach out directly on social media. Samurai.eth is ready to forge your vision.
           </p>
           
           <div className="flex flex-col gap-6">
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Twitter / X</p>
-                <p className="text-white font-bold">@Samu_Edits</p>
+                <p className="text-white font-bold">@SamuraiEth</p>
               </div>
             </a>
             <a href="#" className="flex items-center gap-4 group">
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Discord</p>
-                <p className="text-white font-bold">Samu#1337</p>
+                <p className="text-white font-bold">Samurai.eth#1337</p>
               </div>
             </a>
             <a href="#" className="flex items-center gap-4 group">
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Email</p>
-                <p className="text-white font-bold">contact@samu.io</p>
+                <p className="text-white font-bold">contact@samurai.io</p>
               </div>
             </a>
           </div>
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
       </div>
       
       <div className="mt-24 border-t border-white/5 pt-12 text-center text-gray-600 text-[10px] uppercase tracking-[0.5em]">
-        © {new Date().getFullYear()} Samu • Forged in the Digital Dojo
+        © {new Date().getFullYear()} Samurai.eth • Forged in the Digital Dojo
       </div>
     </section>
   );

@@ -9,13 +9,13 @@ const Navbar: React.FC = () => {
           <div className="w-8 h-8 bg-samurai flex items-center justify-center rounded transform rotate-45">
             <span className="text-white font-bold transform -rotate-45">S</span>
           </div>
-          <span className="text-xl font-black tracking-tighter uppercase font-jp">Samu<span className="text-samurai">.</span></span>
+          <span className="text-xl font-black tracking-tighter uppercase font-jp whitespace-nowrap">Samurai<span className="text-samurai">.eth</span></span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-widest text-gray-400">
           <a href="#work" className="hover:text-samurai transition-colors">Work</a>
           <a href="#services" className="hover:text-samurai transition-colors">Services</a>
-          <a href="#consultant" className="hover:text-samurai transition-colors">AI Sensei</a>
+          <a href="#about" className="hover:text-samurai transition-colors">About Us</a>
           <a href="#contact" className="hover:text-samurai transition-colors">Contact</a>
         </div>
 
