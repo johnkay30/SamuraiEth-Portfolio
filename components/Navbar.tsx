@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
           <div className="w-8 h-8 bg-samurai flex items-center justify-center rounded transform rotate-45">
             <span className="text-white font-bold transform -rotate-45">S</span>
           </div>
-          <span className="text-xl font-black tracking-tighter uppercase font-jp">Samurai<span className="text-samurai">Eth</span></span>
+          <span className="text-xl font-black tracking-tighter uppercase font-jp">Samu<span className="text-samurai">.</span></span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-widest text-gray-400">

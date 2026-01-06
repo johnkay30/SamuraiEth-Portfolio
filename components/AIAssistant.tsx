@@ -5,7 +5,7 @@ import { ChatMessage } from '../types';
 
 const AIAssistant: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: 'Greeting, warrior. I am the Sensei. How can SamuraiEth assist your visual conquest today?' }
+    { role: 'model', text: 'Greeting, warrior. I am the Sensei. How can Samu assist your visual conquest today?' }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -46,13 +46,13 @@ const AIAssistant: React.FC = () => {
             <span className="text-3xl">👺</span>
           </div>
           <h2 className="text-4xl font-black uppercase font-jp mb-4">Talk to the <span className="text-samurai">Sensei</span></h2>
-          <p className="text-gray-400 font-light">Not sure what kind of video strategy you need? Our AI assistant will help you scope your project.</p>
+          <p className="text-gray-400 font-light">Not sure what kind of video strategy you need? Samu's AI assistant will help you scope your project.</p>
         </div>
 
         <div className="bg-[#0f0f0f] border border-white/10 rounded-xl overflow-hidden shadow-2xl">
           <div className="p-4 bg-white/5 border-b border-white/10 flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-green-500"></div>
-            <span className="text-[10px] font-bold uppercase tracking-widest text-white/60">Samurai System Online</span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-white/60">Samu System Online</span>
           </div>
 
           <div 

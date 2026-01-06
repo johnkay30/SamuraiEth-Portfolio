@@ -1,6 +1,6 @@
 {
-  "name": "SamuraiEth Portfolio",
-  "description": "A high-end professional portfolio for SamuraiEth, a specialized video editor and clipper for the Web3 and crypto ecosystem, featuring an AI-driven project consultant.",
+  "name": "Samu Portfolio",
+  "description": "A high-end professional portfolio for Samu, a specialized video editor and clipper for the Web3 and crypto ecosystem, featuring an AI-driven project consultant.",
   "requestFramePermissions": [
     "camera",
     "microphone"
