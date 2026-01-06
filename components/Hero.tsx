@@ -16,9 +16,9 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight uppercase font-jp">
-          Mastering the Art of <br/>
+          Engineering Unrivaled <br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-samurai to-red-400">
-            Web3 Content
+            Visual Narratives
           </span>
         </h1>
         
