@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import VideoGrid from './components/VideoGrid.tsx';
 import Services from './components/Services.tsx';
-import AIAssistant from './components/AIAssistant.tsx';
+import VideoShowcase from './components/AIAssistant.tsx';
 import Contact from './components/Contact.tsx';
 
 const App: React.FC = () => {
@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <Hero />
       <VideoGrid />
       <Services />
-      <AIAssistant />
+      <VideoShowcase />
       <Contact />
     </div>
   );

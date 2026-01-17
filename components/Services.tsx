@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const services = [
@@ -19,7 +18,7 @@ const services = [
   },
   {
     title: 'Ad Creatives',
-    description: 'Conversion-focused promotional videos for protocol launches, mints, and exchange listings.',
+    description: 'Conversion-focused promotional videos for protocol launches, mins, and exchange listings.',
     icon: '🎯'
   }
 ];
@@ -30,7 +29,7 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-samurai uppercase tracking-widest text-xs font-bold mb-4 block">Our Arsenal</span>
-          <h2 className="text-4xl sm:text-5xl font-black uppercase font-jp leading-tight">Tools of <span className="text-white/40">Engagement</span></h2>
+          <h2 className="text-4xl sm:text-5xl font-black uppercase font-jp leading-tight">Tools of <span className="text-white/60">Engagement</span></h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
@@ -38,7 +37,7 @@ const Services: React.FC = () => {
             <div key={idx} className="p-6 md:p-8 bg-white/5 border border-white/5 hover:border-samurai/50 transition-all group">
               <div className="text-3xl md:text-4xl mb-6 group-hover:scale-125 transition-transform duration-300 inline-block">{service.icon}</div>
               <h3 className="text-lg md:text-xl font-bold uppercase mb-4 tracking-tight">{service.title}</h3>
-              <p className="text-gray-400 font-light text-xs md:text-sm leading-relaxed">
+              <p className="text-gray-300 font-light text-xs md:text-sm leading-relaxed">
                 {service.description}
               </p>
             </div>

@@ -7,7 +7,7 @@ const projects: VideoProject[] = [
     title: 'The Digital Blade: Visual Masterclass',
     category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/Ltg_hz1dz2E/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/Ltg_hz1dz2E?autoplay=1&rel=0',
+    videoUrl: 'https://www.youtube.com/embed/Ltg_hz1dz2E?autoplay=1&mute=1&rel=0&loop=1&playlist=Ltg_hz1dz2E',
     description: 'A flagship showcase of visual engineering. Forging high-fidelity narratives for the decentralized frontier.'
   },
   {
@@ -15,7 +15,7 @@ const projects: VideoProject[] = [
     title: 'The Infinite Machina Podcast',
     category: 'Podcast Edit',
     thumbnailUrl: 'https://img.youtube.com/vi/ejzY8-kdSTM/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/ejzY8-kdSTM?autoplay=1&rel=0',
+    videoUrl: 'https://www.youtube.com/embed/ejzY8-kdSTM?autoplay=1&mute=1&rel=0&loop=1&playlist=ejzY8-kdSTM',
     description: 'High-retention cinematic editing for long-form discussions, optimizing narrative flow and visual engagement for the Web3 audience.'
   },
   {
@@ -23,7 +23,7 @@ const projects: VideoProject[] = [
     title: 'Football.fun',
     category: 'Motion Graphics',
     thumbnailUrl: 'https://img.youtube.com/vi/0Cov_mpdUkk/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/0Cov_mpdUkk?autoplay=1&rel=0',
+    videoUrl: 'https://www.youtube.com/embed/0Cov_mpdUkk?autoplay=1&mute=1&rel=0&loop=1&playlist=0Cov_mpdUkk',
     description: 'Football.fun motion graphics Ads. High-intensity visual promotion bridging the world of sports with Web3 technology.'
   },
   {
@@ -31,7 +31,7 @@ const projects: VideoProject[] = [
     title: 'Protocol Motion Dynamics',
     category: 'Motion Graphics',
     thumbnailUrl: 'https://img.youtube.com/vi/-iAYH0aSWf0/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/-iAYH0aSWf0?autoplay=1&rel=0',
+    videoUrl: 'https://www.youtube.com/embed/-iAYH0aSWf0?autoplay=1&mute=1&rel=0&loop=1&playlist=-iAYH0aSWf0',
     description: 'Advanced motion graphics showcasing protocol mechanics and architectural fluid dynamics in the Web3 space.'
   },
   {
@@ -103,16 +103,16 @@ const VideoGrid: React.FC = () => {
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-10 md:mb-16 gap-6 md:gap-8">
           <div className="w-full">
             <span className="text-samurai uppercase tracking-widest text-[10px] font-black mb-2 block">The Portfolio</span>
-            <h2 className="text-3xl sm:text-5xl font-black uppercase font-jp leading-tight">Visual <span className="text-white/40">Work</span></h2>
+            <h2 className="text-3xl sm:text-5xl font-black uppercase font-jp leading-tight">Visual <span className="text-white/60">Work</span></h2>
           </div>
           
-          <div className="flex overflow-x-auto pb-2 scrollbar-hide gap-2 w-full lg:w-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+          <div className="flex overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 scrollbar-hide gap-2 w-full lg:w-auto -mx-4 px-4 lg:mx-0 lg:px-0 justify-start lg:justify-end">
             {categories.map(cat => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
                 className={`whitespace-nowrap px-4 py-2.5 text-[9px] font-black uppercase tracking-widest border transition-all shrink-0 ${
-                  filter === cat ? 'bg-samurai border-samurai text-white' : 'border-white/10 text-gray-500 hover:border-white/30'
+                  filter === cat ? 'bg-samurai border-samurai text-white' : 'border-white/20 text-gray-400 hover:border-white/40'
                 }`}
               >
                 {cat}
@@ -148,10 +148,11 @@ const VideoGrid: React.FC = () => {
                       <video 
                         src={project.videoUrl} 
                         autoPlay 
+                        muted
+                        loop
                         controls 
                         playsInline
                         className="w-full h-full object-cover"
-                        onEnded={() => setPlayingId(null)}
                       />
                     )}
                     <button 
@@ -173,7 +174,7 @@ const VideoGrid: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent p-4 md:p-6 flex flex-col justify-end">
                       <span className="text-samurai text-[9px] md:text-[10px] font-black uppercase tracking-widest mb-1">{project.category}</span>
                       <h3 className="text-base md:text-xl font-black uppercase leading-tight mb-1">{project.title}</h3>
-                      <p className="hidden md:block text-gray-400 text-xs font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 line-clamp-2">
+                      <p className="hidden md:block text-gray-300 text-xs font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 line-clamp-2">
                         {project.description}
                       </p>
                     </div>
@@ -197,7 +198,7 @@ const VideoGrid: React.FC = () => {
                 <div className="p-4 md:p-6 bg-[#111] border-t border-samurai/20 animate-fade-in">
                   <span className="text-samurai text-[9px] md:text-[10px] font-black uppercase tracking-widest mb-2 block">{project.category}</span>
                   <h3 className="text-lg md:text-xl font-black uppercase mb-2">{project.title}</h3>
-                  <p className="text-gray-400 text-xs md:text-sm font-light leading-relaxed">
+                  <p className="text-gray-300 text-xs md:text-sm font-light leading-relaxed">
                     {project.description}
                   </p>
                 </div>

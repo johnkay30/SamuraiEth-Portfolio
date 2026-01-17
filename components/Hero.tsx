@@ -29,14 +29,14 @@ const Hero: React.FC = () => {
           </div>
         </div>
         
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 leading-[1.05] uppercase font-jp max-w-[15ch] sm:max-w-none tracking-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 leading-[1.05] uppercase font-jp max-w-[15ch] sm:max-w-none tracking-tight">
           Architecting the <br className="hidden sm:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#203C61] via-[#4a6fa5] to-white">
-            Visual Standard of Web3
+            Visual Standard
           </span>
         </h1>
         
-        <p className="text-sm sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 font-light leading-relaxed px-2">
+        <p className="text-sm sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 font-light leading-relaxed px-2">
           A crypto-native video creator helping brands and creators turn podcasts, streams, and audio into compelling visual stories, commercials, and high-end motion graphics.
         </p>
         
@@ -52,8 +52,8 @@ const Hero: React.FC = () => {
 
       {/* Floating Indicators */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center gap-1 opacity-40">
-        <span className="text-[8px] uppercase tracking-[0.3em] font-bold">Scroll</span>
-        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <span className="text-[8px] uppercase tracking-[0.3em] font-bold text-gray-300">Scroll</span>
+        <svg className="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7-7-7" />
         </svg>
       </div>
