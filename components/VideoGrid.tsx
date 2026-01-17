@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { VideoProject } from '../types';
+import { VideoProject } from '../types.ts';
 
 const projects: VideoProject[] = [
   {

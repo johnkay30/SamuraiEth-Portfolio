@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { SamuraiConsultant } from '../services/geminiService';
-import { ChatMessage } from '../types';
+import { SamuraiConsultant } from '../services/geminiService.ts';
+import { ChatMessage } from '../types.ts';
 
 const AIAssistant: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([

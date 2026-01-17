@@ -1,11 +1,10 @@
-
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import VideoGrid from './components/VideoGrid';
-import Services from './components/Services';
-import AIAssistant from './components/AIAssistant';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import VideoGrid from './components/VideoGrid.tsx';
+import Services from './components/Services.tsx';
+import AIAssistant from './components/AIAssistant.tsx';
+import Contact from './components/Contact.tsx';
 
 const App: React.FC = () => {
   return (
@@ -16,8 +15,6 @@ const App: React.FC = () => {
       <Services />
       <AIAssistant />
       <Contact />
-      
-      {/* Scroll to top utility could go here if needed, but keeping it minimalist */}
     </div>
   );
 };
