@@ -1,8 +1,7 @@
-
 export interface VideoProject {
   id: string;
   title: string;
-  category: 'Clips' | 'Long Form' | 'Motion Graphics' | 'Commercials';
+  category: 'Podcast Edit' | 'Motion Graphics' | 'Commercial Ads';
   thumbnailUrl: string;
   videoUrl: string;
   description: string;
