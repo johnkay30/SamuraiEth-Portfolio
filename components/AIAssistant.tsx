@@ -46,7 +46,7 @@ const AIAssistant: React.FC = () => {
         <div className="flex flex-col items-center mb-8 md:mb-12 text-center">
           <h2 className="text-2xl md:text-4xl font-black uppercase font-jp mb-3 md:mb-4">The <span className="text-samurai">SAMU</span> Strategy</h2>
           <p className="text-xs md:text-base text-gray-500 font-light max-w-2xl px-2 leading-relaxed">
-            I’m SAMU — a crypto-native video creator helping brands and creators turn podcasts, streams, and audio into compelling visual stories.
+            A crypto-native video creator helping brands and creators turn podcasts, streams, and audio into compelling visual stories.
           </p>
         </div>
 

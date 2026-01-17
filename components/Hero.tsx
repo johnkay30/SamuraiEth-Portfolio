@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-sm sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 font-light leading-relaxed px-2">
-          I’m <span className="text-white font-semibold">SAMU</span> — a crypto-native video creator helping brands and creators turn podcasts, streams, and audio into compelling visual stories, commercials, and high-end motion graphics.
+          A crypto-native video creator helping brands and creators turn podcasts, streams, and audio into compelling visual stories, commercials, and high-end motion graphics.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto px-4 sm:px-0">
