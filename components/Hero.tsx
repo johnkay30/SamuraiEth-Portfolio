@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Hero: React.FC = () => {
+  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Mission Inquiry";
+
   return (
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-20 pb-12 overflow-hidden bg-black">
       {/* Background elements - optimized for mobile performance */}
@@ -41,11 +43,11 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto px-4 sm:px-0">
-          <a href="#work" className="w-full sm:w-auto px-8 py-4 bg-[#3b82f6] hover:bg-[#60a5fa] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(59,130,246,0.4)] hover:scale-105 active:scale-95 text-center">
+          <a href="#work" className="w-full sm:w-auto px-8 py-4 bg-white text-black hover:bg-gray-200 font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(255,255,255,0.2)] hover:scale-105 active:scale-95 text-center">
             View the Archive
           </a>
-          <a href="#about" className="w-full sm:w-auto px-8 py-4 border border-white/20 hover:border-white text-white font-black uppercase tracking-widest text-[11px] transition-all hover:bg-white/5 text-center">
-            The Strategy
+          <a href={emailHref} className="w-full sm:w-auto px-8 py-4 bg-[#3b82f6] border border-[#3b82f6] hover:bg-[#60a5fa] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(59,130,246,0.3)] hover:scale-105 active:scale-95 text-center">
+            Book Mission
           </a>
         </div>
       </div>
