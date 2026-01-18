@@ -3,20 +3,28 @@ import { VideoProject } from '../types.ts';
 
 const projects: VideoProject[] = [
   {
-    id: '10',
-    title: 'Football.fun Launch',
+    id: '15',
+    title: 'Sonic Ecosystem Genesis',
     category: 'Commercial Ads',
-    thumbnailUrl: 'https://img.youtube.com/vi/ajnl-SwcZzg/maxresdefault.jpg',
-    videoUrl: 'https://www.youtube.com/embed/ajnl-SwcZzg?autoplay=1&mute=1&rel=0&loop=1&playlist=ajnl-SwcZzg',
-    description: 'Project: Football.fun Campaign. Scope: High-energy asset commercial. The Goal: To visualize the fusion of gaming and decentralized finance through rhythmic, sport-focused motion design.'
+    thumbnailUrl: 'https://img.youtube.com/vi/0Cov_mpdUkk/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/0Cov_mpdUkk?autoplay=1&mute=1&rel=0&loop=1&playlist=0Cov_mpdUkk',
+    description: 'Mission: Sonic Network Identity. Strategy: Visualizing the Speed of Sound. Translated raw technical performance into a cinematic brand experience, leveraging high-fps motion design to communicate sub-second finality and extreme scalability.'
   },
   {
     id: '7',
     title: 'Monad: The Parallel Standard',
     category: 'Commercial Ads',
+    thumbnailUrl: 'https://img.youtube.com/vi/ajnl-SwcZzg/maxresdefault.jpg',
+    videoUrl: 'https://www.youtube.com/embed/ajnl-SwcZzg?autoplay=1&mute=1&rel=0&loop=1&playlist=ajnl-SwcZzg',
+    description: 'Mission: Monad Ecosystem Showcase. Strategy: Visualizing the flagship prediction market architecture on the Monad L1. This piece focuses on high-speed parallel execution narratives, blending sports-native energy with decentralized technical precision.'
+  },
+  {
+    id: '10',
+    title: 'Football.fun Launch',
+    category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/-iAYH0aSWf0/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/-iAYH0aSWf0?autoplay=1&mute=1&rel=0&loop=1&playlist=-iAYH0aSWf0',
-    description: 'Project: Monad Launch Identity. Scope: High-end motion graphics & visual storytelling. The Goal: To communicate the extreme performance and throughput of the Monad L1 through an aggressive, data-driven visual narrative.'
+    description: 'Mission: Football.fun x Monad Genesis. Strategy: A rhythmic visual engineering project designed to launch the premier prediction engine. The focus was on translating abstract betting mechanics into a high-fidelity, high-retention commercial sequence.'
   },
   {
     id: '14',
@@ -24,7 +32,7 @@ const projects: VideoProject[] = [
     category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/L50GjlKarrY/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/L50GjlKarrY?autoplay=1&mute=1&rel=0&loop=1&playlist=L50GjlKarrY',
-    description: 'Project: Protocol Narrative Arc. Scope: Cinematic high-fidelity commercial. The Goal: To synthesize technical complexity into a compelling visual journey for the decentralized landscape.'
+    description: 'Mission: Protocol Storytelling. Strategy: Synthesizing complex cryptographic concepts into a linear, compelling visual journey. Designed to establish brand authority and technological trust within the competitive L1 landscape.'
   },
   {
     id: '11',
@@ -32,7 +40,7 @@ const projects: VideoProject[] = [
     category: 'Podcast Edit',
     thumbnailUrl: 'https://img.youtube.com/vi/cbgoDbULUVU/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/cbgoDbULUVU?autoplay=1&mute=1&rel=0&loop=1&playlist=cbgoDbULUVU',
-    description: 'Project: Macro Vision Distillation. Scope: Insightful podcast highlight extraction. The Goal: To visualize complex market analysis and technical alpha through high-retention cinematic editing.'
+    description: 'Mission: Alpha Extraction. Strategy: Distilling long-form market intelligence into punchy, high-retention clips. We utilize precision-cut editing and dynamic motion graphics to highlight market-shifting insights.'
   },
   {
     id: '12',
@@ -40,7 +48,7 @@ const projects: VideoProject[] = [
     category: 'Podcast Edit',
     thumbnailUrl: 'https://img.youtube.com/vi/o8oz075Wnms/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/o8oz075Wnms?autoplay=1&mute=1&rel=0&loop=1&playlist=o8oz075Wnms',
-    description: 'Project: On-Chain Mechanics Dialogue. Scope: Expert interview highlight. The Goal: To transform technical protocol discussions into digestible, visual-first social narratives designed for deep engagement.'
+    description: 'Mission: Technical Deep-Dive Narrative. Strategy: Transforming dense developer interviews into digestible visual stories. By layering technical diagrams over clean audio, we ensure the protocol’s core value is communicated clearly.'
   },
   {
     id: '13',
@@ -48,7 +56,7 @@ const projects: VideoProject[] = [
     category: 'Podcast Edit',
     thumbnailUrl: 'https://img.youtube.com/vi/mMQFQ26quZU/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/mMQFQ26quZU?autoplay=1&mute=1&rel=0&loop=1&playlist=mMQFQ26quZU',
-    description: 'Project: Ecosystem Depth Analysis. Scope: Technical stream summary. The Goal: To capture the essence of high-level crypto debate using professional audio-visual synchronization and sharp pacing.'
+    description: 'Mission: Community Narrative Engineering. Strategy: Curating ecosystem debates into shareable social assets. We focus on pacing and sound design to keep the audience engaged through complex governance and technical discussions.'
   }
 ];
 

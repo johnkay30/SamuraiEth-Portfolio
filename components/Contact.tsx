@@ -14,8 +14,8 @@ const Contact: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 md:gap-4">
             {[
               { label: 'X / Twitter', value: '@samuraietherius', icon: '𝕏', href: 'https://x.com/samuraietherius?s=21' },
-              { label: 'TikTok', value: '@samu.eth', icon: '📱', href: 'https://www.tiktok.com/@samuraieth?_r=1&_t=ZS-939KQ3yBmmj' },
-              { label: 'YouTube', value: '@samu.eth', icon: '📺', href: 'https://youtube.com/@samuraieth?si=4ivmqUGr-hflM4-L' },
+              { label: 'TikTok', value: '@samuraieth', icon: '📱', href: 'https://www.tiktok.com/@samuraieth?_r=1&_t=ZS-939KQ3yBmmj' },
+              { label: 'YouTube', value: '@samuraieth', icon: '📺', href: 'https://youtube.com/@samuraieth?si=4ivmqUGr-hflM4-L' },
               { label: 'Email', value: 'samuraiethereius@gmail.com', icon: '📧', href: 'mailto:samuraiethereius@gmail.com' }
             ].map((link, idx) => (
               <a 
