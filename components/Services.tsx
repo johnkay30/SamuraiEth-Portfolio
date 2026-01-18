@@ -7,13 +7,13 @@ const services = [
     icon: '✂️'
   },
   {
-    title: 'Long-Form Storytelling',
-    description: 'Deep-dive video essays and project documentaries with premium pacing, sound design, and color grading.',
-    icon: '🎞️'
+    title: 'Podcast Mastering',
+    description: 'Deep-dive video essays and long-form podcast edits with premium pacing, professional sound design, and color grading.',
+    icon: '🎙️'
   },
   {
-    title: 'Ad Creatives',
-    description: 'Conversion-focused promotional videos for protocol launches, mints, and exchange listings.',
+    title: 'Commercial Ads',
+    description: 'Conversion-focused promotional videos and cinematic trailers for protocol launches, mints, and exchange listings.',
     icon: '🎯'
   }
 ];

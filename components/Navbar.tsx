@@ -31,6 +31,8 @@ const Navbar: React.FC = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
+  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Mission Inquiry";
+
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b ${
       scrolled ? 'bg-black/90 backdrop-blur-lg py-3 border-white/10' : 'bg-transparent py-5 border-transparent'
@@ -38,23 +40,26 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-6 flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-lg md:text-xl font-black tracking-tighter uppercase font-jp whitespace-nowrap">
-            SAMURAI<span className="text-samurai">.ETH</span>
+            SAMURAI<span className="text-samu">.ETH</span>
           </span>
         </div>
         
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-widest text-gray-400">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="hover:text-samurai transition-colors">
+            <a key={link.name} href={link.href} className="hover:text-samu transition-colors">
               {link.name}
             </a>
           ))}
         </div>
 
         <div className="flex items-center gap-2 md:gap-4">
-          <button className="hidden sm:block bg-samurai hover:bg-[#60a5fa] text-white px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all">
+          <a 
+            href={emailHref}
+            className="hidden sm:block bg-[#3b82f6] hover:bg-[#60a5fa] text-white px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all"
+          >
             Book Mission
-          </button>
+          </a>
           
           {/* Mobile Menu Toggle */}
           <button 
@@ -81,16 +86,19 @@ const Navbar: React.FC = () => {
               key={link.name} 
               href={link.href} 
               onClick={closeMenu}
-              className={`text-white transition-all duration-300 hover:text-samurai transform ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+              className={`text-white transition-all duration-300 hover:text-samu transform ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
               style={{ transitionDelay: `${navLinks.indexOf(link) * 100}ms` }}
             >
               {link.name}
             </a>
           ))}
           <div className={`mt-8 transform transition-all duration-300 ${isMenuOpen ? 'scale-100 opacity-100' : 'scale-50 opacity-0'}`} style={{ transitionDelay: '400ms' }}>
-            <button className="bg-samurai hover:bg-[#60a5fa] text-white px-10 py-4 text-xs font-black uppercase tracking-widest transition-all shadow-lg">
+            <a 
+              href={emailHref}
+              className="bg-[#3b82f6] hover:bg-[#60a5fa] text-white px-10 py-4 text-xs font-black uppercase tracking-widest transition-all shadow-lg inline-block"
+            >
               Book Mission
-            </button>
+            </a>
           </div>
         </div>
       </div>
