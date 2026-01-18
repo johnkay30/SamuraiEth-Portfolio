@@ -4,19 +4,19 @@ import { VideoProject } from '../types.ts';
 const projects: VideoProject[] = [
   {
     id: '10',
-    title: 'Web3 Visual Standard',
+    title: 'Football.fun Launch',
     category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/ajnl-SwcZzg/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/ajnl-SwcZzg?autoplay=1&mute=1&rel=0&loop=1&playlist=ajnl-SwcZzg',
-    description: 'Project: Performance Identity. Scope: Technical asset commercial. The Goal: To showcase precision-engineered visuals that communicate peak technical performance.'
+    description: 'Project: Football.fun Campaign. Scope: High-energy asset commercial. The Goal: To visualize the fusion of gaming and decentralized finance through rhythmic, sport-focused motion design.'
   },
   {
     id: '7',
-    title: 'Monad Launch Identity',
+    title: 'Monad: The Parallel Standard',
     category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/-iAYH0aSWf0/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/-iAYH0aSWf0?autoplay=1&mute=1&rel=0&loop=1&playlist=-iAYH0aSWf0',
-    description: 'Project: Monad Launch Identity. Scope: High-end motion graphics & visual storytelling. The Goal: To visualize the power of a fully EVM-compatible, high-performance L1 through aggressive, data-driven motion design'
+    description: 'Project: Monad Launch Identity. Scope: High-end motion graphics & visual storytelling. The Goal: To communicate the extreme performance and throughput of the Monad L1 through an aggressive, data-driven visual narrative.'
   },
   {
     id: '14',

@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
     { name: 'YT', href: 'https://youtube.com/@samuraieth?si=4ivmqUGr-hflM4-L' },
   ];
 
-  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Mission Inquiry";
+  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Project Mission Brief&body=Hello SAMURAI.ETH,%0D%0A%0D%0AI would like to discuss a project involving...";
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b ${
@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-2 md:gap-4">
           <a 
             href={emailHref}
-            className="hidden xs:block bg-[#3b82f6] hover:bg-[#60a5fa] text-white px-4 md:px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all shadow-[0_5px_15px_rgba(59,130,246,0.3)]"
+            className="hidden sm:block bg-[#3b82f6] hover:bg-[#60a5fa] text-white px-4 md:px-5 py-2.5 text-[10px] font-black uppercase tracking-widest transition-all shadow-[0_5px_15px_rgba(59,130,246,0.3)]"
           >
             Book Mission
           </a>
@@ -123,9 +123,10 @@ const Navbar: React.FC = () => {
             ))}
 
             {/* Prominent Mobile CTA */}
-            <div className={`mt-4 transform transition-all duration-700 delay-300 ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <div className={`mt-6 transform transition-all duration-700 delay-300 ${isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
               <a 
                 href={emailHref}
+                onClick={closeMenu}
                 className="w-full flex items-center justify-center gap-3 bg-[#3b82f6] hover:bg-[#60a5fa] text-white py-5 rounded-xl font-black uppercase tracking-widest text-xs shadow-[0_15px_30px_rgba(59,130,246,0.3)] active:scale-95 transition-all"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

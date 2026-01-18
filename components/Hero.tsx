@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero: React.FC = () => {
-  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Mission Inquiry";
+  const emailHref = "mailto:samuraiethereius@gmail.com?subject=New Project Mission Brief&body=Hello SAMURAI.ETH,%0D%0A%0D%0AI would like to discuss a project involving...";
 
   return (
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-20 pb-12 overflow-hidden bg-black">
@@ -46,7 +46,10 @@ const Hero: React.FC = () => {
           <a href="#work" className="w-full sm:w-auto px-8 py-4 bg-white text-black hover:bg-gray-200 font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(255,255,255,0.2)] hover:scale-105 active:scale-95 text-center">
             View the Archive
           </a>
-          <a href={emailHref} className="w-full sm:w-auto px-8 py-4 bg-[#3b82f6] border border-[#3b82f6] hover:bg-[#60a5fa] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(59,130,246,0.3)] hover:scale-105 active:scale-95 text-center">
+          <a 
+            href={emailHref} 
+            className="w-full sm:w-auto px-8 py-4 bg-[#3b82f6] border border-[#3b82f6] hover:bg-[#60a5fa] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(59,130,246,0.3)] hover:scale-105 active:scale-95 text-center"
+          >
             Book Mission
           </a>
         </div>
