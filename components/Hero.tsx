@@ -5,21 +5,21 @@ const Hero: React.FC = () => {
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-20 pb-12 overflow-hidden bg-black">
       {/* Background elements - optimized for mobile performance */}
       <div className="absolute top-0 left-0 w-full h-full opacity-30 pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-48 sm:w-96 h-48 sm:h-96 bg-[#203C61]/30 rounded-full blur-[40px] sm:blur-[100px]"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-48 sm:w-96 h-48 sm:h-96 bg-[#203C61]/20 rounded-full blur-[40px] sm:blur-[100px]"></div>
+        <div className="absolute top-1/4 left-1/4 w-48 sm:w-96 h-48 sm:h-96 bg-[#3b82f6]/30 rounded-full blur-[40px] sm:blur-[100px]"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-48 sm:w-96 h-48 sm:h-96 bg-[#3b82f6]/20 rounded-full blur-[40px] sm:blur-[100px]"></div>
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto flex flex-col items-center">
         {/* Enhanced Visibility Badge */}
         <div className="group relative mb-10 flex items-center justify-center">
           {/* Outer Glow Effect */}
-          <div className="absolute inset-0 bg-samurai/40 blur-xl rounded-full opacity-50 group-hover:opacity-80 transition-opacity"></div>
+          <div className="absolute inset-0 bg-[#3b82f6]/40 blur-xl rounded-full opacity-50 group-hover:opacity-80 transition-opacity"></div>
           
-          <div className="relative flex items-center gap-3 px-6 py-2.5 bg-black/60 border-2 border-samurai backdrop-blur-md rounded-full shadow-[0_0_20px_rgba(32,60,97,0.4)]">
+          <div className="relative flex items-center gap-3 px-6 py-2.5 bg-black/60 border-2 border-[#3b82f6] backdrop-blur-md rounded-full shadow-[0_0_25px_rgba(59,130,246,0.5)]">
             {/* Status Indicator */}
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-samurai opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-samurai"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3b82f6] opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#3b82f6]"></span>
             </span>
             
             {/* Highly Visible Text */}
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 leading-[1.05] uppercase font-jp max-w-[15ch] sm:max-w-none tracking-tight">
           Architecting the <br className="hidden sm:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#203C61] via-[#4a6fa5] to-white">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] via-[#60a5fa] to-white drop-shadow-[0_0_15px_rgba(59,130,246,0.3)]">
             Visual Standard
           </span>
         </h1>
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto px-4 sm:px-0">
-          <a href="#work" className="w-full sm:w-auto px-8 py-4 bg-samurai hover:bg-[#2d558a] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_20px_rgba(32,60,97,0.3)] hover:scale-105 active:scale-95 text-center">
+          <a href="#work" className="w-full sm:w-auto px-8 py-4 bg-samurai hover:bg-[#60a5fa] text-white font-black uppercase tracking-widest text-[11px] transition-all shadow-[0_0_25px_rgba(59,130,246,0.4)] hover:scale-105 active:scale-95 text-center">
             View the Archive
           </a>
           <a href="#about" className="w-full sm:w-auto px-8 py-4 border border-white/20 hover:border-white text-white font-black uppercase tracking-widest text-[11px] transition-all hover:bg-white/5 text-center">

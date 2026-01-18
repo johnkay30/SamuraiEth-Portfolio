@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
           <span className="text-samurai uppercase tracking-widest text-[10px] font-black mb-4 block">The Mission</span>
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase font-jp mb-6 md:mb-8 leading-tight">Prepare Your <br/> <span className="text-samurai">Digital Conquest</span></h2>
           <p className="text-gray-300 text-sm md:text-lg font-light mb-10 md:mb-12 max-w-md leading-relaxed">
-            Ready to elevate your project to the next level? Reach out directly via any of the channels below or fill out the mission brief. SAMURAIETH is ready to forge your vision at SAMURAI.ETH.
+            Ready to elevate your project to the next level? Reach out directly via any of the channels below or fill out the mission brief. SAMURAI is ready to forge your vision at SAMURAI.ETH.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 md:gap-4">
@@ -57,7 +57,6 @@ const Contact: React.FC = () => {
               <div className="relative">
                 <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-xs md:text-sm focus:outline-none focus:border-samurai text-white transition-colors appearance-none cursor-pointer">
                   <option className="bg-black">Commercial Ads</option>
-                  <option className="bg-black">Motion Graphics</option>
                   <option className="bg-black">Podcast Edit</option>
                   <option className="bg-black">Other / Full Retainer</option>
                 </select>
@@ -72,7 +71,7 @@ const Contact: React.FC = () => {
               <textarea rows={4} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-xs md:text-sm focus:outline-none focus:border-samurai text-white transition-colors resize-none placeholder:text-gray-500" placeholder="Describe your vision..."></textarea>
             </div>
             
-            <button type="button" className="w-full py-6 bg-samurai hover:bg-[#2d558a] text-white font-black uppercase tracking-[0.25em] text-xs md:text-sm transition-all shadow-[0_15px_40px_rgba(32,60,97,0.4)] active:scale-[0.97] rounded-xl flex items-center justify-center gap-4 mt-4">
+            <button type="button" className="w-full py-6 bg-samurai hover:bg-[#60a5fa] text-white font-black uppercase tracking-[0.25em] text-xs md:text-sm transition-all shadow-[0_15px_40px_rgba(59,130,246,0.4)] active:scale-[0.97] rounded-xl flex items-center justify-center gap-4 mt-4">
               <span>Send Transmission</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
             </button>

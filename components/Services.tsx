@@ -12,13 +12,8 @@ const services = [
     icon: '🎞️'
   },
   {
-    title: 'Web3 Motion Design',
-    description: 'Bringing DeFi UI and NFT art to life through sleek 2D and 3D animations that scream quality and trust.',
-    icon: '✨'
-  },
-  {
     title: 'Ad Creatives',
-    description: 'Conversion-focused promotional videos for protocol launches, mins, and exchange listings.',
+    description: 'Conversion-focused promotional videos for protocol launches, mints, and exchange listings.',
     icon: '🎯'
   }
 ];
@@ -32,7 +27,7 @@ const Services: React.FC = () => {
           <h2 className="text-4xl sm:text-5xl font-black uppercase font-jp leading-tight">Tools of <span className="text-white/60">Engagement</span></h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, idx) => (
             <div key={idx} className="p-6 md:p-8 bg-white/5 border border-white/5 hover:border-samurai/50 transition-all group">
               <div className="text-3xl md:text-4xl mb-6 group-hover:scale-125 transition-transform duration-300 inline-block">{service.icon}</div>

@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-2 md:gap-4">
-          <button className="hidden sm:block bg-samurai hover:bg-[#2d558a] text-white px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all">
+          <button className="hidden sm:block bg-samurai hover:bg-[#60a5fa] text-white px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all">
             Book Mission
           </button>
           
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <div className={`mt-8 transform transition-all duration-300 ${isMenuOpen ? 'scale-100 opacity-100' : 'scale-50 opacity-0'}`} style={{ transitionDelay: '400ms' }}>
-            <button className="bg-samurai hover:bg-[#2d558a] text-white px-10 py-4 text-xs font-black uppercase tracking-widest transition-all shadow-lg">
+            <button className="bg-samurai hover:bg-[#60a5fa] text-white px-10 py-4 text-xs font-black uppercase tracking-widest transition-all shadow-lg">
               Book Mission
             </button>
           </div>

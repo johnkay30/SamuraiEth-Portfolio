@@ -21,7 +21,7 @@ const projects: VideoProject[] = [
   {
     id: '8',
     title: 'Football.fun',
-    category: 'Motion Graphics',
+    category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/0Cov_mpdUkk/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/0Cov_mpdUkk?autoplay=1&mute=1&rel=0&loop=1&playlist=0Cov_mpdUkk',
     description: 'Football.fun motion graphics Ads. High-intensity visual promotion bridging the world of sports with Web3 technology.'
@@ -29,7 +29,7 @@ const projects: VideoProject[] = [
   {
     id: '7',
     title: 'Protocol Motion Dynamics',
-    category: 'Motion Graphics',
+    category: 'Commercial Ads',
     thumbnailUrl: 'https://img.youtube.com/vi/-iAYH0aSWf0/maxresdefault.jpg',
     videoUrl: 'https://www.youtube.com/embed/-iAYH0aSWf0?autoplay=1&mute=1&rel=0&loop=1&playlist=-iAYH0aSWf0',
     description: 'Advanced motion graphics showcasing protocol mechanics and architectural fluid dynamics in the Web3 space.'
@@ -37,7 +37,7 @@ const projects: VideoProject[] = [
   {
     id: '2',
     title: 'Solana Summer Recap',
-    category: 'Motion Graphics',
+    category: 'Commercial Ads',
     thumbnailUrl: 'https://picsum.photos/seed/sol/800/450',
     videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     description: 'High-octane visual journey through the Solana ecosystem growth. Focused on transaction throughput and ecosystem expansion.'
@@ -79,11 +79,11 @@ const projects: VideoProject[] = [
 const VideoGrid: React.FC = () => {
   const [filter, setFilter] = useState<string>('All');
   const [playingId, setPlayingId] = useState<string | null>(null);
-  const categories = ['All', 'Commercial Ads', 'Motion Graphics', 'Podcast Edit'];
+  const categories = ['All', 'Commercial Ads', 'Podcast Edit'];
 
   const filteredProjects = filter === 'All' 
     ? projects 
-    : projects.filter(p => p.category === filter);
+    : projects.filter(p => p.category === (filter as any));
 
   const handleCardClick = (id: string) => {
     if (playingId === id) return;
@@ -128,8 +128,8 @@ const VideoGrid: React.FC = () => {
               onClick={() => handleCardClick(project.id)}
               className={`group relative overflow-hidden bg-black flex flex-col cursor-pointer border transition-all duration-500 ${
                 playingId === project.id 
-                  ? 'border-samurai scale-[1.02] md:scale-100 shadow-[0_0_50px_rgba(32,60,97,0.3)] z-20' 
-                  : 'border-white/5 hover:border-samurai/40 lg:hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(32,60,97,0.15)] z-0'
+                  ? 'border-samurai scale-[1.02] md:scale-100 shadow-[0_0_50px_rgba(59,130,246,0.3)] z-20' 
+                  : 'border-white/5 hover:border-samurai/40 lg:hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] z-0'
               }`}
             >
               <div className="relative aspect-video overflow-hidden">
@@ -157,7 +157,7 @@ const VideoGrid: React.FC = () => {
                     )}
                     <button 
                       onClick={stopVideo}
-                      className="absolute top-2 right-2 z-30 bg-samurai text-white w-9 h-9 flex items-center justify-center rounded-full hover:bg-[#2d558a] transition-all shadow-xl active:scale-90"
+                      className="absolute top-2 right-2 z-30 bg-samurai text-white w-9 h-9 flex items-center justify-center rounded-full hover:bg-[#60a5fa] transition-all shadow-xl active:scale-90"
                     >
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
@@ -180,7 +180,7 @@ const VideoGrid: React.FC = () => {
                     </div>
                     
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-75 md:scale-50 md:group-hover:scale-100">
-                      <div className="w-14 h-14 md:w-16 md:h-16 bg-samurai flex items-center justify-center rounded-full shadow-[0_0_30px_rgba(32,60,97,0.5)]">
+                      <div className="w-14 h-14 md:w-16 md:h-16 bg-samurai flex items-center justify-center rounded-full shadow-[0_0_30px_rgba(59,130,246,0.5)]">
                         <svg className="w-6 h-6 md:w-8 md:h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M6 4l10 6-10 6V4z"/>
                         </svg>
